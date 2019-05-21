@@ -22,12 +22,12 @@ datetime = input()
 mysock.send(datetime.encode())
 
 #input centre frequency
-print('input centre frequency(MHz):')
-freq = float(input()) * 1000000
-mysock.send(str(freq).encode())
+#print('input centre frequency(MHz):')
+#freq = float(input()) * 1000000
+#mysock.send(str(freq).encode())
 
 #mysock.send(b'shutdown')
-time.sleep(1)
-mysock.send((str(90*1000*1000)).encode())
+#time.sleep(1)
+#mysock.send((str(90*1000*1000)).encode())
 
 time.sleep(600)
